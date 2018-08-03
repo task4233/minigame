@@ -3,12 +3,35 @@
   <head>
     <meta charset="utf-8">
     <title>minigame</title>
-    <link rel="stylesheet" href="style.css" />
+    <script src="./js/enchant.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/animation.css" />
+    <link rel="stylesheet" href="./css/gameOver.css" />
   </head>
   <body>
-    <canvas width="300" height="600"></canvas>
-    <script src="js/lks.js"></script>
-    <script src="js/controller.js"></script>
-    <script src="js/render.js"></script>
+    <span id="firstElem"></span>
+    <div id="secondElem">
+      <div><p>G</p></div>
+      <div><p>a</p></div>
+      <div><p>m</p></div>
+      <div><p>e</p></div>
+      <div><p></p></div>
+      <div><p>O</p></div>
+      <div><p>v</p></div>
+      <div><p>e</p></div>
+      <div><p>r</p></div>
+    </div>
+    <div id="underLine">
+      <div class="line-1"></div>
+      <div class="line-2"></div>
+    </div>
+    <div id="thanks">Thank you for playing!</div>
+    <!--
+    <script> 
+      var nextAnimationElem = document.getElementById("nextAnimationElem");
+      console.log(nextAnimationElem.textContent = "jiji");
+    </script>
+-->
+    <script src="./js/main.js"></script>
   </body>
 </html>
