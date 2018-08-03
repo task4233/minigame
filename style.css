@@ -1,0 +1,8 @@
+canvas {
+    /* centering */
+    display: block;
+    margin: auto;
+    /* disp line */
+    border: 1px solid black;
+}
+
